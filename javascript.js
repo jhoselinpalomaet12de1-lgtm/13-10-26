@@ -18,5 +18,13 @@ function agregar() {
     personaVector.push(persona);
 
      console.log(personaVector);
+ 
+    document.getElementById("estatura").value = ""
+    document.getElementById("edad").value = ""
+        document.getElementById("nombre").value = ""
+            document.getElementById("apellido").value = ""
+
+
+
     
 }
